@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utd-8">
+  <title>Hello, Nginx!!</title>
+</head>
+<body>
+ <h1> Hello, Nginx from {{ inventory_hostname}} our variable is {{ variableOpen }}</h1>
+	
+	<p> el servidor esta siendo configurado en {{ansible_all_ipv4_addresses}}  </p>
+	<p> Estamos configurando la plataforma de nginx en {{ inventory_hostname }} y la variable {{ variableOpen}} </p>
+</body>
+</html>

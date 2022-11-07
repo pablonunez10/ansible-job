@@ -1,0 +1,6 @@
+---
+- name: Ensure group "grupo1" exists
+  ansible.builtin.group:
+    name: grupo1
+    state: present
+

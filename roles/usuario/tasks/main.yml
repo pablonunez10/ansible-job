@@ -1,0 +1,7 @@
+---
+- name: Add a user
+  ansible.builtin.user:
+    user: pepito
+    comment: PEPEPITOS
+    uid: 1040
+    groups: grupo1

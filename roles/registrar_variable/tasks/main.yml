@@ -1,0 +1,6 @@
+---
+- name: Check if file exist
+  stat:
+    path: "/root/Open/ansible/motd"
+  register: motd_file
+

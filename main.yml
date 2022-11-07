@@ -1,0 +1,11 @@
+---
+- hosts: webserver
+  remote_user: "root"
+  roles:
+  - role: nginx_install
+  - role: registrar_variable
+  - role: variable_templeate
+  - role: usuario
+  - role: grupos
+  - role: variables
+
